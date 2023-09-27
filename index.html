@@ -3,10 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="assets/style.css" type="text/css" rel="stylesheet" />
 	<title>Formation</title>
+<!-- <style>
+		body{
+			background-color: #f7f7f7;
+		}
+	</style> -->
 </head>
 <body>
-	<center><h1><u>Taille</u></h1></center>
+	<a href="profil.html">Mon Profil</a>
+	<a href="page.html">Page</a>
+	<h1><u>Taille</u></h1>
 	<h2>Ma première Formation</h2>
 	<h3>Ma première Formation</h3>
 	<h4>Ma première Formation</h4>
@@ -17,7 +25,7 @@
 	<hr>
 	<p>« Je suis une fée. Pour te remercier de ta <a href="">gentillesse</a>, voici une nappe blanche. Tu n'auras qu'à dire : "Nappe, mets la table !", et aussitôt des mets de toutes sortes s'y déposeront tout seuls.</p>
 	<p>— Oh, merci, merci ! » fit Pierre, s'empressant de reprendre la route en direction de chez ses parents. Il marcha, marcha d'un bon pas, mais la nuit arriva. Il était fatigué, alors il s'arrêta dans une auberge. Avant de dormir, comme il avait faim, il sortit sa nappe et commanda : « Nappe, mets la table ! » Aussitôt la nappe se déplia sous ses yeux et se couvrit de mets succulents et de fruits appétissants. Mais l'aubergiste avait vu le manège et, dans la nuit, il vola la nappe qu'il remplaça par une autre identique.</p>
-	<center><h1><u>Lien</u></h1></center>
+	<h1><u>Lien</u></h1>
 	<a href="create.html">Cliquez ici</a>
 	<p>Envoyez moi un email <a href="mailto:afy.amafon@outlook.fr">ici</a> dès que vous pouvez.</p>
 	<p>Télécharger mon CV <a href="assurance.pdf">ici</a> dès que vous pouvez.</p>
@@ -28,7 +36,7 @@
 		<li>Service</li>
 		<li>Nos partenaires</li>
 	</ul>
-	<center><h1><u>Liste imbriquée</u></h1></center>
+	<h1><u>Liste imbriquée</u></h1>
 	<ol>
 		<li>Natation</li>
 		<li>
@@ -43,14 +51,14 @@
 	<center><h1><u>Insérer une image</u></h1></center>
 	<img src="image_test.jpeg">
 	<center><h1><u>Insérer un Tableau</u></h1></center>
-	<table border="2">
+	<table>
 		<thead>
 			<tr>
-				<td><span style="font-size:20px;color:red">Nom</span></td>
-				<td>Prénoms</td>
-				<td>Sexe</td>
-				<td>Email</td>
-				<td>Téléphone</td>
+				<th>Nom</th>
+				<th>Prénoms</th>
+				<th>Sexe</th>
+				<th>Email</th>
+				<th>Téléphone</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -63,7 +71,7 @@
 			</tr>
 		</tbody>
 	</table>
-	<center><h1><u>Input</u></h1></center>
+	<h1><u>Input</u></h1>
 	<form>
 		<label>Nom:</label>
 		<input type="text" name="nom" placeholder="Nom..." value="AMAFON" required readonly><br><br>
@@ -81,6 +89,10 @@
 		<input type="number" name="telephone" placeholder="Téléphone..." required><br><br>
 		<button type="submit">Enregistrer</button>
 	</form>
-
+	<h1><u>CSS</u></h1>
+	<main class="main-menu">
+		<h1 class="titre">Mise en forme du Texte et les Polices</h1>
+		<p class="contenu">Contenu de la page</p>
+	</main>
 </body>
 </html>

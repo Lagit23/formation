@@ -1,0 +1,61 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	color: red;
+}
+
+table{
+	border-collapse: collapse;
+  	min-width: 400px;
+}
+
+table thead th,
+table tbody td{
+	padding: 12px 15px;
+	text-align: left;
+}
+
+p{
+	font-family: fantasy;
+	color: blueviolet;
+}
+
+.main-menu{
+	background: #ffe4b5;
+	background-image: url('image_test.jpeg');
+	background-size: 100px;
+	background-repeat: no-repeat;
+/*	opacity: 0.1;*/
+	/*---------------Bordure------------- */
+	border: 3px solid #000;
+}
+
+.titre{
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+}
+
+.contenu{
+	font-family: sans-serif; /*Définir le nom de la police de caractère utilisé*/
+	font-weight: bold; /*Changer l'épaisseur des caratères*/
+	font-style: italic; /*Changer le style de la police*/
+	text-align: left; /* Aligne le texte selon la valeur définie*/
+	text-decoration: underline; /* Permet d'appliquer un trait soulignement au texte*/
+	color: #000; /* Définit une couleur au texte*/
+	margin: 20px;
+	padding: 20px;
+	float: left;
+	position: absolute;
+	top: 100px;
+	/*	bottom: 10px;*/
+	/*left: 10px;*/
+	/*right: 5px;*/
+}
